@@ -16,7 +16,7 @@
 
 #### Install (Ubuntu)
 
-`sudo make && make install`
+`make && sudo make install`
 
 `./spaceInvaders`
 
