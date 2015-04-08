@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE jeu SYSTEM "niveau.dtd">
+<jeu>
+	<armee Index="1" VitesseArmeeY="10" Acceleration="2" DepartArmeeX="0" DepartArmeeY="0" DebutCourseX="0" FinCourseY="800" EnnemisParlignes="11" EspaceY_EntreEnnemis="10" NombreDeSautsEnnemis="12" HauteurSautYEnnemis="1234560" NombreEnnemis="55" PosFinEnnemisType1="21" PosFinEnnemisType2="43" PosFinEnnemisType3="54">
+	</armee>
+	
+	 <armee Index="2" VitesseArmeeY="15" Acceleration="4" DepartArmeeX="0" DepartArmeeY="0" DebutCourseX="0" FinCourseY="800" EnnemisParlignes="10" EspaceY_EntreEnnemis="10" NombreDeSautsEnnemis="12" HauteurSautYEnnemis="1234560" NombreEnnemis="30" PosFinEnnemisType1="9" PosFinEnnemisType2="19" PosFinEnnemisType3="29">
+	</armee>
+
+
+	<ennemi Index="1" Points="10" Texture1="data/images/invader1.tga" Texture2="data/images/invader1bis.tga" TailleEnnemiX="35" TailleEnnemiY="35">
+	</ennemi>
+
+	<ennemi Index="2" Points="20" Texture1="data/images/invader2.tga" Texture2="data/images/invader2bis.tga" TailleEnnemiX="135" TailleEnnemiY="135">
+	</ennemi>
+
+	<ennemi Index="3" Points="30" Texture1="data/images/invader3.tga" Texture2="data/images/invader3bis.tga" TailleEnnemiX="55" TailleEnnemiY="55">
+	</ennemi>
+
+	<armeEnnemie VitesseTirEnnemiY="2" TailleTirEnnemi="6" NbParticulesTirEnnemi="50" EspaceY_EntreParticulesTirEnnemi="0" TempsReinitParticulesTirEnnemi="0.01" DureeVieParticulesTirEnnemi="0.5" DepartY_ParticulesTirEnnemi="0">
+	</armeEnnemie>
+
+	<ennemiBonus Index="1" Points="50" Texture="data/images/vaisseaubonus.tga" TailleEnnemiBonusX="109" TailleEnnemiBonusY="68">
+	</ennemiBonus>
+</jeu>

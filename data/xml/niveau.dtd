@@ -1,0 +1,42 @@
+<!ELEMENT jeu (armee+, ennemi+, armeEnnemie, ennemiBonus)>
+<!ELEMENT armee (#PCDATA)>
+<!ATTLIST armee
+          Acceleration CDATA #REQUIRED
+          DebutCourseX CDATA #REQUIRED
+          DepartArmeeX CDATA #REQUIRED
+          DepartArmeeY CDATA #REQUIRED
+          EnnemisParlignes CDATA #REQUIRED
+          EspaceY_EntreEnnemis CDATA #REQUIRED
+          FinCourseY CDATA #REQUIRED
+          HauteurSautYEnnemis CDATA #REQUIRED
+          Index CDATA #REQUIRED
+          NombreDeSautsEnnemis CDATA #REQUIRED
+          NombreEnnemis CDATA #REQUIRED
+          PosFinEnnemisType1 CDATA #REQUIRED
+          PosFinEnnemisType2 CDATA #REQUIRED
+          PosFinEnnemisType3 CDATA #REQUIRED
+          VitesseArmeeY CDATA #REQUIRED>
+<!ELEMENT ennemi (#PCDATA)>
+<!ATTLIST ennemi
+          Index CDATA #REQUIRED
+          Points CDATA #REQUIRED
+          TailleEnnemiX CDATA #REQUIRED
+          TailleEnnemiY CDATA #REQUIRED
+          Texture1 CDATA #REQUIRED
+          Texture2 CDATA #REQUIRED>
+<!ELEMENT armeEnnemie (#PCDATA)>
+<!ATTLIST armeEnnemie
+          DepartY_ParticulesTirEnnemi CDATA #REQUIRED
+          DureeVieParticulesTirEnnemi CDATA #REQUIRED
+          EspaceY_EntreParticulesTirEnnemi CDATA #REQUIRED
+          NbParticulesTirEnnemi CDATA #REQUIRED
+          TailleTirEnnemi CDATA #REQUIRED
+          TempsReinitParticulesTirEnnemi CDATA #REQUIRED
+          VitesseTirEnnemiY CDATA #REQUIRED>
+<!ELEMENT ennemiBonus (#PCDATA)>
+<!ATTLIST ennemiBonus
+          Index CDATA #REQUIRED
+          Points CDATA #REQUIRED
+          TailleEnnemiBonusX CDATA #REQUIRED
+          TailleEnnemiBonusY CDATA #REQUIRED
+          Texture CDATA #REQUIRED>
