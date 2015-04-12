@@ -226,12 +226,12 @@ void CRender::RenderScene(sf::RenderWindow &AppRender)
                     m_fDegatsVaisseau -= 51.f;
                     m_uiPointsDeVieVaisseau--;
                     m_bVieVaisseau = false;
-                    std::cout <<"1 - " <<m_fDegatsVaisseau <<std::endl;
+                    //std::cout <<"1 - " <<m_fDegatsVaisseau <<std::endl;
                 }
 
                 if (m_uiPointsDeVieVaisseau == 0)
                 {
-                    std::cout<<"init explosition" <<std::endl;
+                    //std::cout<<"init explosition" <<std::endl;
                     IVaisseau.InitialiserExplosionVaisseau ();
                     IVaisseau.m_TimerEplosionVaisseau.Reset ();
                     IVaisseau.ExplosionVaisseau ();
@@ -241,7 +241,7 @@ void CRender::RenderScene(sf::RenderWindow &AppRender)
                 else if (!bResLancerTirEnnemis && !m_bVieVaisseau)
                 {
                     m_bVieVaisseau = true;
-                    std::cout <<"2 - " <<m_fDegatsVaisseau <<std::endl;
+                    //std::cout <<"2 - " <<m_fDegatsVaisseau <<std::endl;
                 }
            }
 
@@ -263,7 +263,7 @@ void CRender::RenderScene(sf::RenderWindow &AppRender)
            {
                 if(!m_bVieVaisseau)
                 {
-                    std::cout<<"init" <<std::endl;
+                    //std::cout<<"init" <<std::endl;
                     IVaisseau.InitialiserExplosionVaisseau ();
                     IVaisseau.m_TimerEplosionVaisseau.Reset ();
                     m_bVieVaisseau = true;
@@ -271,7 +271,7 @@ void CRender::RenderScene(sf::RenderWindow &AppRender)
 
                 if (IVaisseau.m_TimerEplosionVaisseau.GetElapsedTime () < 1.f)
                 {
-                    std::cout<<"exploooooooooooooooooooooooo" <<std::endl;
+                    //std::cout<<"exploooooooooooooooooooooooo" <<std::endl;
                     IVaisseau.ExplosionVaisseau ();
                 }
            }

@@ -402,7 +402,7 @@ void CEnnemis::InitSonsArmeeEnnemis (sf::SoundBuffer& BufferSonEnnemi)
         ParametrageEnnemiSon.push_back(TempParametrageEnnemiSon);
     }
 
-    std::cout <<ParametrageEnnemiSon.size ()  <<std::endl;
+    //std::cout <<ParametrageEnnemiSon.size ()  <<std::endl;
 
     ParametrageEnnemiSon[52].SonExplosionEnnemi.Play ();
 
@@ -1194,7 +1194,7 @@ std::vector <unsigned int> CEnnemis::CreerVectorAvecEnnemisPouvantTirer (unsigne
 
     /*for (unsigned int i=0; i < m_vEnnemisPouvantTirer.size (); i++)
     {
-        std::cout <<m_vEnnemisPouvantTirer[i] <<"-" ;
+        //std::cout <<m_vEnnemisPouvantTirer[i] <<"-" ;
     }*/
 
     //std::cout <<std::endl;

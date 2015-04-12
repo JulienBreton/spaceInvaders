@@ -59,7 +59,7 @@ void CParticules::InitialiserGenerateurParticules(
     m_departParticulesY = departParticulesY;
     Acceleration = sf::Vector2f (0.0, 0.0);
 
-    std::cout <<"init "<<ParametrageParticules.size () <<std::endl;
+    //std::cout <<"init "<<ParametrageParticules.size () <<std::endl;
 
     ParametrageParticules.resize (m_uiNbParticules);
 }
