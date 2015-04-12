@@ -2,7 +2,7 @@
 
 #### Install dependencies on Ubuntu
 
-`sudo apt-get install build-essential mesa-common-dev libglu1-mesa-dev libxml2-dev`
+`sudo apt-get install build-essential mesa-common-dev libglu1-mesa-dev libxml2-dev libopenal-dev`
 
 #### Install dependencies on Fedora
 
